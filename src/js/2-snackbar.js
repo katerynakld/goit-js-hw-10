@@ -27,7 +27,7 @@ function handleSubmit(event) {
         message: `✅ Fulfilled promise in ${delay}ms`,
         position: 'topRight',
         backgroundColor: '#59a10d',
-        iconUrl: '../img/icons/success.svg',
+        iconUrl: '/img/icons/success.svg',
         messageColor: '#ffffff',
         titleColor: '#ffffff',
       });
@@ -40,7 +40,7 @@ function handleSubmit(event) {
         backgroundColor: '#ef4040',
         messageColor: '#ffffff',
         titleColor: '#ffffff',
-        iconUrl: '../img/icons/error.svg',
+        iconUrl: '/img/icons/error.svg',
       });
     });
 

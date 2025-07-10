@@ -31,7 +31,7 @@ const options = {
         position: 'topRight',
         backgroundColor: '#ef4040',
         messageColor: '#ffffff',
-        iconUrl: '../img/icons/error.svg',
+        iconUrl: '/img/icons/error.svg',
       });
     } else {
       startButtonEl.classList.remove('disable');
