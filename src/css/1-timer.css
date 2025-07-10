@@ -19,6 +19,10 @@
   border-color: #000;
 }
 
+.input-box:focus-within {
+  outline: none;
+}
+
 .input-box.active {
   border-color: #4e75ff;
   color: #000;
