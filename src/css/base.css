@@ -30,3 +30,17 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.menu-button {
+  margin-right: 20px;
+  border: 1px solid #4e75ff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 250ms ease-in-out;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+  background-color: #4e75ff;
+  color: aliceblue;
+}
