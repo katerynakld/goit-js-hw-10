@@ -1,5 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import iconError from '/public/icons/error.svg';
+import iconSuccess from '/public/icons/success.svg';
 
 const formEl = document.querySelector('.form');
 
@@ -27,7 +29,7 @@ function handleSubmit(event) {
         message: `✅ Fulfilled promise in ${delay}ms`,
         position: 'topRight',
         backgroundColor: '#59a10d',
-        iconUrl: '/public/icons/success.svg',
+        iconUrl: iconSuccess,
         messageColor: '#ffffff',
         titleColor: '#ffffff',
       });
@@ -40,7 +42,7 @@ function handleSubmit(event) {
         backgroundColor: '#ef4040',
         messageColor: '#ffffff',
         titleColor: '#ffffff',
-        iconUrl: '/public/icons/error.svg',
+        iconUrl: iconError,
       });
     });
 

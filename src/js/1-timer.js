@@ -2,6 +2,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import iconError from '/public/icons/error.svg';
 
 let userSelectedDate;
 let totalRemainingTime;
@@ -32,7 +33,7 @@ const options = {
         backgroundColor: '#ef4040',
         messageColor: '#ffffff',
         titleColor: '#ffffff',
-        iconUrl: '/public/icons/error.svg',
+        iconUrl: iconError,
       });
     } else {
       startButtonEl.classList.remove('disable');
